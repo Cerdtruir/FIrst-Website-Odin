@@ -33,6 +33,46 @@ nav {
   color: #f9faf8;
 }
 
+.main-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.hero {
+  height: 300px;
+  display: flex;
+  background-color: #1f2937;
+  flex-direction: column;
+  padding: 0 20%;
+  flex-direction: row;
+  font-size: 18px;
+  color: #e5e7eb;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.hero-left {
+  flex: 1 1 auto;
+}
+
+.hero-heading {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+button .hero-right {
+  flex: 1 1 auto;
+}
+
+img {
+  height: 200px;
+}
+
 footer {
   height: 72px;
   color: #e5e7eb;
