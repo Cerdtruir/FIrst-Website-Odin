@@ -52,10 +52,12 @@ nav {
   color: #e5e7eb;
   align-content: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .hero-left {
   flex: 1 1 auto;
+  width: 30%;
 }
 
 .hero-heading {
@@ -65,12 +67,24 @@ nav {
   margin: 0;
 }
 
-button .hero-right {
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.hero-right {
   flex: 1 1 auto;
+  margin-left: auto;
 }
 
 img {
   height: 200px;
+  margin-left: auto;
 }
 
 footer {
