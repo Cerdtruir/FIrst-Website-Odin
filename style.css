@@ -82,11 +82,13 @@ nav {
 .hero-right {
   flex: 1 1 auto;
   margin-left: auto;
+  display: flex;
 }
 
 .router-image {
   height: 200px;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .features {
