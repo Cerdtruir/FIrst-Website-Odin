@@ -116,17 +116,21 @@ nav {
 }
 
 .box {
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+  margin-bottom: auto;
 }
 
 .feature-image {
   height: 100px;
+  width: 100px;
   flex: 1 1 auto;
   border: #3882f6;
   border-radius: 10px;
   border-width: 3px;
   border-style: solid;
+  margin: auto;
 }
 
 .quote {
