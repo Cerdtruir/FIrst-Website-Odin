@@ -11,6 +11,7 @@ header {
   background-color: #1f2937;
   padding: 0 20%;
   font-size: 18px;
+  display: flex;
 }
 
 a {
@@ -19,6 +20,7 @@ a {
 }
 
 nav {
+  flex: 1 1 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -28,6 +30,7 @@ nav {
 }
 
 .heading {
+  margin: 0;
   margin-right: auto;
   font-size: 24px;
   color: #f9faf8;
