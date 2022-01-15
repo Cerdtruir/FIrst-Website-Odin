@@ -175,6 +175,16 @@ nav {
   font-size: 22px;
 }
 
+.action-button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border-color: #e5e7eb;
+  border-radius: 6px;
+  border-width: 2px;
+  padding: 5px 20px;
+  font-size: 20px;
+  border-style: solid;
+}
 footer {
   height: 72px;
   color: #e5e7eb;
