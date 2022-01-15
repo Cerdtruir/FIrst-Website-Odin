@@ -90,10 +90,11 @@ button {
 }
 
 .features {
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 20%;
+  padding: 0 25%;
   text-align: center;
 }
 
