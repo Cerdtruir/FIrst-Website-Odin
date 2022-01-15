@@ -144,6 +144,35 @@ nav {
   margin-left: auto;
 }
 
+.action {
+  padding: 0 20%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.action-bar {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 30px 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.action-contact {
+  color: #e5e7eb;
+  margin: 0;
+  font-size: 22px;
+}
+
 footer {
   height: 72px;
   color: #e5e7eb;
