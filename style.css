@@ -89,6 +89,39 @@ button {
   margin-left: auto;
 }
 
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20%;
+  text-align: center;
+}
+
+.feature-heading {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.feature-boxes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-image {
+  height: 100px;
+  flex: 1 1 auto;
+  border: #3882f6;
+  border-radius: 10px;
+  border-width: thick;
+}
+
 footer {
   height: 72px;
   color: #e5e7eb;
