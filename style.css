@@ -124,6 +124,26 @@ button {
   border-style: solid;
 }
 
+.quote {
+  height: 300px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 0 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-text {
+  font-style: oblique;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-name {
+  margin-left: auto;
+}
+
 footer {
   height: 72px;
   color: #e5e7eb;
