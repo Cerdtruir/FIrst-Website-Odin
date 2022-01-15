@@ -61,6 +61,7 @@ nav {
 }
 
 .hero-heading {
+  flex: 1 1 auto;
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
@@ -68,6 +69,7 @@ nav {
 }
 
 button {
+  flex: 1 1 auto;
   background-color: #3882f6;
   color: #e5e7eb;
   font-size: 18px;
@@ -82,7 +84,7 @@ button {
   margin-left: auto;
 }
 
-img {
+.router-image {
   height: 200px;
   margin-left: auto;
 }
