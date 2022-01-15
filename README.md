@@ -2,7 +2,7 @@
 
 > Website built according to theodinproject specifications: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
 Wifi4Kids Home Page
 
@@ -13,19 +13,18 @@ Wifi4Kids Home Page
 
 ## Live Demo
 
-[Live Link](https://livedemo.com)
+[Live Link](https://cerdtruir.github.io/WiFi4Kids/)
 
 ## Authors
 
-👤 **Author1**
+👤 **Cerdtruir**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Cerdtruir](https://github.com/Cerdtruir)
 
 ## Acknowledgments
 
 - The Odin Project
+- pixabay
 
 ## 📝 License
 
