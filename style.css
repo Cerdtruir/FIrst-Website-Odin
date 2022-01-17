@@ -98,8 +98,7 @@ nav {
 
 .router-image {
   height: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .features {
@@ -135,10 +134,8 @@ nav {
   height: 100px;
   width: 100px;
   flex: 1 1 auto;
-  border: #3882f6;
+  border: 3px solid #3882f6;
   border-radius: 10px;
-  border-width: 3px;
-  border-style: solid;
   margin: auto;
 }
 
@@ -194,12 +191,10 @@ nav {
 .action-button {
   color: #e5e7eb;
   background-color: #3882f6;
-  border-color: #e5e7eb;
+  border: 2px solid #e5e7eb;
   border-radius: 6px;
-  border-width: 2px;
   padding: 5px 20px;
   font-size: 20px;
-  border-style: solid;
 }
 footer {
   height: 72px;
