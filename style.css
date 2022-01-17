@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-family: roboto;
+  font-family: "Courier New", Courier, monospace;
   margin: 0;
 }
 header {
@@ -45,39 +49,49 @@ nav {
 }
 
 .hero {
+  margin: 0;
   height: 300px;
   display: flex;
-  background-color: #1f2937;
-  flex-direction: column;
+  background-color: #163172;
   padding: 0 20%;
   flex-direction: row;
   font-size: 18px;
   color: #e5e7eb;
   align-content: center;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .hero-left {
+  margin: 0;
   flex: 1 1 auto;
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
 
 .hero-heading {
   flex: 1 1 auto;
   color: #f9faf8;
-  font-size: 48px;
+  font-size: 2em;
   font-weight: 900;
   margin: 0;
 }
 
+.hero-text {
+  flex: 1 1 auto;
+}
+
 .hero-button {
+  text-align: center;
+  width: 5em;
   flex: 1 1 auto;
   background-color: #3882f6;
   color: #e5e7eb;
   font-size: 18px;
   font-weight: bold;
-  padding: 8px 30px;
+  padding: 8px 25px;
   border-radius: 10px;
   border: none;
 }
@@ -90,11 +104,11 @@ nav {
 
 .router-image {
   height: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .features {
+  margin: 0;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -126,16 +140,12 @@ nav {
   height: 100px;
   width: 100px;
   flex: 1 1 auto;
-  border: #3882f6;
-  border-radius: 10px;
-  border-width: 3px;
-  border-style: solid;
   margin: auto;
 }
 
 .quote {
   height: 300px;
-  background-color: #e5e7eb;
+  background-color: #d6e4f0;
   display: flex;
   flex-direction: column;
   padding: 0 25%;
@@ -166,7 +176,8 @@ nav {
   padding: 30px 9%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .action-left {
@@ -174,6 +185,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   gap: 5px;
+  margin-right: auto;
 }
 
 .action-contact {
@@ -185,12 +197,10 @@ nav {
 .action-button {
   color: #e5e7eb;
   background-color: #3882f6;
-  border-color: #e5e7eb;
+  border: 2px solid #e5e7eb;
   border-radius: 6px;
-  border-width: 2px;
   padding: 5px 20px;
   font-size: 20px;
-  border-style: solid;
 }
 footer {
   height: 72px;
@@ -199,4 +209,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#loadOverlay {
+  display: none;
 }

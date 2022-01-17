@@ -11,6 +11,11 @@ Wifi4Kids Home Page
 - HTML
 - CSS
 
+## Possible Improvements
+
+- Mobile Responsiveness needs work
+- Make it possible to purchase from the site buy now buttons
+
 ## Live Demo
 
 [Live Link](https://cerdtruir.github.io/WiFi4Kids/)
