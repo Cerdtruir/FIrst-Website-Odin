@@ -84,13 +84,14 @@ nav {
 }
 
 .hero-button {
-  width: 10em;
+  text-align: center;
+  width: 5em;
   flex: 1 1 auto;
   background-color: #3882f6;
   color: #e5e7eb;
   font-size: 18px;
   font-weight: bold;
-  padding: 8px 30px;
+  padding: 8px 25px;
   border-radius: 10px;
   border: none;
 }
