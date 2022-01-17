@@ -84,6 +84,7 @@ nav {
 }
 
 .hero-button {
+  width: 10em;
   flex: 1 1 auto;
   background-color: #3882f6;
   color: #e5e7eb;
