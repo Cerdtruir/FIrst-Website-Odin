@@ -208,3 +208,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+#loadOverlay {
+  display: none;
+}
