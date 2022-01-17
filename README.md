@@ -11,6 +11,18 @@ Wifi4Kids Home Page
 - HTML
 - CSS
 
+## Possible Improvements
+
+- Remove Border Boxes
+- HTML loads before css and initially looks bad
+- Use a different colour with stronger contrast to the header.
+- Use a different colour with stronger contrast to the white and add more text content in your quote section.
+- A better font can be used.
+- Mobile Responsiveness needs work
+- Links can go to sections and or email
+- add mailto to buy now buttons for now
+- make a link to buy online
+
 ## Live Demo
 
 [Live Link](https://cerdtruir.github.io/WiFi4Kids/)
