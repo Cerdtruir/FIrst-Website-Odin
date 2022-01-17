@@ -19,9 +19,6 @@ Wifi4Kids Home Page
 - Use a different colour with stronger contrast to the white and add more text content in your quote section.
 - A better font can be used.
 - Mobile Responsiveness needs work
-- Links can go to sections and or email
-- add mailto to buy now buttons for now
-- make a link to buy online
 
 ## Live Demo
 
