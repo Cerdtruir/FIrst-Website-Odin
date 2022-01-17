@@ -13,8 +13,8 @@ Wifi4Kids Home Page
 
 ## Possible Improvements
 
-- Remove Border Boxes
-- HTML loads before css and initially looks bad
+- Youtube and Google use approved images
+- Remove Border Boxess
 - Use a different colour with stronger contrast to the header.
 - Use a different colour with stronger contrast to the white and add more text content in your quote section.
 - A better font can be used.
