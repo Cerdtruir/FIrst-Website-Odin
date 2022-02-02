@@ -9,6 +9,17 @@ body {
   font-family: "Courier New", Courier, monospace;
   margin: 0;
 }
+
+#loadOverlay {
+  background-color: #333;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+}
+
 header {
   height: 72px;
   flex: 0 0 auto;
@@ -170,6 +181,7 @@ nav {
   flex-direction: column;
   justify-content: center;
 }
+
 .action-bar {
   background-color: #3882f6;
   border-radius: 10px;
@@ -202,6 +214,7 @@ nav {
   padding: 5px 20px;
   font-size: 20px;
 }
+
 footer {
   height: 72px;
   color: #e5e7eb;
